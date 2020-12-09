@@ -2,6 +2,7 @@
 use DigitalIX;
 GO
 
+
 CREATE FUNCTION dbo.OrderHistory(@custID int)
 RETURNS TABLE
 AS
